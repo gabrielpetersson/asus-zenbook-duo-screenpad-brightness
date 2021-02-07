@@ -4,8 +4,10 @@ With the latest Ubuntu 20, the brightness of the screenpad on duo computers is h
 
 # Usage
 
-`sp-brightness (0-1) # sets brightness once`
-`sp-brightness-loop (0-1) # sets brightness every 5 sec (my ubuntu resets brightness randomly and everytime a program starts)`
+```
+sp-brightness (0-1) # sets brightness once
+sp-brightness-loop (0-1) # sets brightness every 5 sec (my ubuntu resets brightness randomly and everytime a program starts)
+```
 Run `sp-autostart` on reboot with cron or ubuntu autostart.
 
 Run `screenpad 9` along with this. or just `sp-autostart` manually
