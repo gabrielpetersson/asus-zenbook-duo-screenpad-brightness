@@ -1,0 +1,4 @@
+#!/bin/bash
+brightness_level=$1
+screenname=$(xrandr | grep " connected" | grep "DP-1-2" |cut -f1 -d" ")
+xrandr --output $screenname --brightness $brightness_level;

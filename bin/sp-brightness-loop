@@ -1,0 +1,4 @@
+#!/bin/bash
+brightness_level=$1
+while true ; do . sb $brightness_level & sleep 5; done
+

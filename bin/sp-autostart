@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo screenpad 9 
+sp-brightness-loop 1
