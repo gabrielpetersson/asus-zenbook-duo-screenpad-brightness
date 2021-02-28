@@ -6,7 +6,8 @@ With the latest Ubuntu 20, the brightness of the screenpad on duo computers is h
 
 ```
 sp-brightness (0-1) # sets brightness once
-sp-brightness-loop (0-1) # sets brightness every 5 sec (my ubuntu resets brightness randomly and everytime a program starts)
+sp-brightness-loop (0-1) # sets brightness every 5 sec (my screen resets brightness randomly)
+/path/to/project sb-autostart # run this on autostart. runs loops
 ```
 Run `sp-autostart` on reboot with cron or ubuntu autostart.
 
@@ -19,11 +20,6 @@ First, setup screenpad-tools: https://github.com/Plippo/screenpad-tools
 
 Secondly, clone this repo and make scripts executable:
 `chmod -x bin/<filename>`
-
-```
-sp-brightness-loop # inifite loop setting brightness to max every 5 sec. 
-/path/to/project sb-autostart # run this on autostart. runs loops
-```
 
 
 # Background
