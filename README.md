@@ -14,13 +14,17 @@ Run `screenpad 9` along with this. or just `sp-autostart` manually
 
 # Install
 
-Setup way #1 of setting brightness: https://github.com/Plippo/screenpad-tools
+We need to control the brightness in 2 ways to ensure maximum brightness:
+First, setup screenpad-tools: https://github.com/Plippo/screenpad-tools
 
-Clone this repo and make scripts executable:
-`chmod -x bin/sp-x`
+Secondly, clone this repo and make scripts executable:
+`chmod -x bin/<filename>`
 
-It will run the above script once and set the #1 way of changing brightness to max, and then have an inifinite loop setting the #2 way to max every 5 sec.
-Run on autostart: `/path/to/project sb-autostart`
+```
+sp-brightness-loop # inifite loop setting brightness to max every 5 sec. 
+/path/to/project sb-autostart # run this on autostart. runs loops
+```
+
 
 # Background
 
