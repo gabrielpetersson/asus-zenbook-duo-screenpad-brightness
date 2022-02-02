@@ -1,6 +1,6 @@
 # Why
 
-With the latest Ubuntu 20, the brightness of the screenpad on duo computers is hard to keep at max brightness
+The brightness of both screens on the Asus Pro Duo series is completely messsed up on linux, especially using nvidia drivers. This maxes the brightness on both screens 
 
 # Usage
 
